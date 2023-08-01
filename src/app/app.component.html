@@ -1,0 +1,30 @@
+<section class="body">
+  <!-- <img class="background-image"
+       src="https://images.alphacoders.com/964/964724.png"
+       alt="found"> -->
+
+  <div class="container-body">
+    <div class="header">
+      <img class="img-logo"
+           src="../assets/images/logo.png"
+           alt="Logo do anime">
+
+      <mat-form-field class="container-input-search">
+        <mat-label>
+          Nome, clã ou local
+        </mat-label>
+
+        <input #inputText
+               class="input-search"
+               (keyup)="filter(inputText.value)"
+               matInput>
+      </mat-form-field>
+    </div>
+
+    <div class="content-body">
+      <app-cards-characters *ngFor="let character of charactersFiltereds"
+                            [character]="character">
+      </app-cards-characters>
+    </div>
+  </div>
+</section>

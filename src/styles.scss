@@ -1,0 +1,61 @@
+// Custom Theming for Angular Material
+// For more information: https://material.angular.io/guide/theming
+@use '@angular/material' as mat;
+// Plus imports for other components in your app.
+
+// Include the common styles for Angular Material. We include this here so that you only
+// have to load a single css file for Angular Material in your app.
+// Be sure that you only ever include this mixin once!
+@include mat.core();
+
+// Define the palettes for your theme using the Material Design palettes available in palette.scss
+// (imported above). For each palette, you can optionally specify a default, lighter, and darker
+// hue. Available color palettes: https://material.io/design/color/
+$Naruto-characters-front-Angular-primary: mat.define-palette(mat.$indigo-palette);
+$Naruto-characters-front-Angular-accent: mat.define-palette(mat.$pink-palette, A200, A100, A400);
+
+// The warn palette is optional (defaults to red).
+$Naruto-characters-front-Angular-warn: mat.define-palette(mat.$red-palette);
+
+// Create the theme object. A theme consists of configurations for individual
+// theming systems such as "color" or "typography".
+$Naruto-characters-front-Angular-theme: mat.define-light-theme((color: (primary: $Naruto-characters-front-Angular-primary,
+        accent: $Naruto-characters-front-Angular-accent,
+        warn: $Naruto-characters-front-Angular-warn,
+      )));
+
+// Include theme styles for core and each component used in your app.
+// Alternatively, you can import and @include the theme mixins for each component
+// that you are using.
+@include mat.all-component-themes($Naruto-characters-front-Angular-theme);
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Righteous&display=swap');
+
+:root {
+  --font-text: 'Josefin Sans', sans-serif;
+  --font-title: 'Righteous', cursive;
+  --animation-loader: animationLoader 3s;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  height: 10vh;
+  width: 100%;
+  background: rgb(255, 203, 60);
+  background: linear-gradient(107deg, rgb(247, 132, 38) 0%, rgb(228, 48, 16) 100%);
+}
+
+@keyframes animationLoader {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+
+}
