@@ -13,8 +13,6 @@ export class DialogComponent implements OnInit {
   character: Character = {} as Character;
 
   ngOnInit(): void {
-    this.character = this.data;
-    console.log(this.character);
-    
+    this.character = this.data;    
   }
 }
