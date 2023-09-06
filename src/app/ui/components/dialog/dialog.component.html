@@ -1,7 +1,21 @@
-<p>{{character.name}}</p>
+<section class="dialog">
+    <div class="container-dialog">
+        <div class="content-sup-dialog">
+            <img class="character-image-dialog"
+                 src="{{character.images[0]}}"
+                 alt="Character Image">
+        </div>
 
-<p>{{character.about[0]}}</p>
+        <div class="text-sup-dialog">
+            <h2>Nome</h2>
+            <p>{{character.name}}</p>
+            <h2>Sobre</h2>
+            <p>{{character.about[0]}}</p>
+            <h2>Caracteristicas</h2>
 
-<p>{{character.about[1]}}</p>
-
-<p>{{character.about[2]}}</p>
+            <p *ngFor="let item of character.about; let i = index">
+                <span *ngIf="i > 0">{{character.about[i]}}</span>
+            </p>
+        </div>
+    </div>
+</section>

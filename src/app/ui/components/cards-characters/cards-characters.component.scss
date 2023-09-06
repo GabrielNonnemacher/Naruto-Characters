@@ -5,9 +5,7 @@
     margin: 10px;
     border-radius: 16px;
     background-color: #fff79943;
-    /* background-color: rgb(76, 60, 249);
-    background: linear-gradient(124deg, rgb(45, 3, 182) 0%, rgb(156, 18, 255) 100%); 
-    */ animation: var(--animation-loader);
+    animation: var(--animation-loader);
 }
 
 .image {
