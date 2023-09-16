@@ -1,27 +1,50 @@
-# NarutoCharactersFrontAngular
+![Naruto Characters Front-Angular-banner](https://github.com/GabrielNonnemacher/Naruto-Characters/assets/87139289/5a0b19f4-182c-4086-b73f-9365c47e85ad)
+-----
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.3.
+### The 
 
-## Development server
+## ⚙️ Functionalities
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+As features we have:
 
-## Code scaffolding
+<br/>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 🛠️ Technologies and Tools
 
-## Build
+* [Angular CLI](https://github.com/angular/angular-cli) version 16.0.3.
+  
+<br/>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## ✒️ Authors
 
-## Running unit tests
+* **Gabriel José Nonnemacher** - [GabrielNonnemacher](https://github.com/GabrielNonnemacher) Front-End
+* **Gustavo** - [gustavonobreza](https://github.com/gustavonobreza/naruto-api) API
+<br/>
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 📄 Licença
 
-## Running end-to-end tests
+**MIT License** - see the file [LICENSE.md](https://github.com/GabrielNonnemacher/Naruto-Characters/blob/master/LICENSE) for details.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+<br/>
 
-## Further help
+## <img height="20px" src="https://cdn-icons-png.flaticon.com/512/352/352163.png"> Startup
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+First, copy the project to a desired folder
+```
+git clone https://github.com/GabrielNonnemacher/stopwatch-timer.git
+```
+
+Second, install within the project
+```
+npm install
+```
+
+Third, run the project in development mode
+```
+ng serve
+```
+To build the project, run the command. The build artifacts will be stored in the `dist/` directory.
+```
+ng build
+```
+<br/>
