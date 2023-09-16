@@ -18,7 +18,7 @@ As features we have:
 ## ✒️ Authors
 
 * **Gabriel José Nonnemacher** - [GabrielNonnemacher](https://github.com/GabrielNonnemacher) Front-End
-* **Gustavo** - [gustavonobreza](https://github.com/gustavonobreza/naruto-api) API
+* **Gustavo** - [gustavonobreza](https://github.com/gustavonobreza) ➡️ **API** - [Link](https://github.com/gustavonobreza/naruto-api)
 <br/>
 
 ## 📄 Licença
