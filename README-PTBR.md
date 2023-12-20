@@ -1,4 +1,4 @@
-![Personagens Naruto Front-banner](https://github.com/GabrielNonnemacher/Naruto-Characters/assets/87139289/7ada21f8-bd29-478d-b39e-f3c5c2852817)
+![Calculator](https://github.com/GabrielNonnemacher/Naruto-Characters/assets/87139289/8e8dbae4-ba77-4ca1-9ec3-ca5008412e05)
 -----
 
 ### O projeto
