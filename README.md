@@ -1,4 +1,5 @@
-![Naruto Characters Front-Angular-banner](https://github.com/GabrielNonnemacher/Naruto-Characters/assets/87139289/5a0b19f4-182c-4086-b73f-9365c47e85ad)
+![Calculator](https://github.com/GabrielNonnemacher/Naruto-Characters/assets/87139289/17bd3e5f-17d1-42b4-a92e-faa88a4a676f)
+
 -----
 
 ### The 
