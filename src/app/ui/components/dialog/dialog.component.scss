@@ -1,7 +1,7 @@
 .dialog {}
 
 .container-dialog {
-    background: radial-gradient(70.99% 70.99% at 50% 50%, #f05536 0%, #56190a 100%);
+    background: rgb(245, 195, 120);
     box-shadow: 0px 4px 4px 44px rgba(0, 0, 0, 0.6);
     padding: 20px;
 }
@@ -30,7 +30,6 @@
 h2,
 p {
     font-family: var(--font-text);
-    color: rgb(255, 255, 255);
 }
 
 h2 {
