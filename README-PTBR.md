@@ -3,8 +3,6 @@
 
 Um projeto simples utilizando listagem, filtro e recurso modal, feito com Angular, Angular Material foi utilizado para aprofundar meu conhecimento no framework.
 
-### O projeto
-
 ## ⚙️ Funcionalidades
 
 Como funcionalidades temos:
