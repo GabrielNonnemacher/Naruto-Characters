@@ -1,11 +1,17 @@
 ![Calculator](https://github.com/GabrielNonnemacher/Naruto-Characters/assets/87139289/8e8dbae4-ba77-4ca1-9ec3-ca5008412e05)
------
+-----------------
+
+Um projeto simples utilizando listagem, filtro e recurso modal, feito com Angular, Angular Material foi utilizado para aprofundar meu conhecimento no framework.
 
 ### O projeto
 
 ## ⚙️ Funcionalidades
 
 Como funcionalidades temos:
+
+  * **LISTA DE CARACTERES**: o usuário poderá ver a lista de caracteres em ordem alfabética.
+  * **FILTRO**: o usuário pode pesquisar um caractere específico pelo nome.
+  * **INFORMAÇÕES DO PERSONAGEM**: o usuário pode saber as informações de um personagem específico clicando em seu cartão abrindo um modal.
 
 <br/>
 
@@ -32,7 +38,7 @@ Como funcionalidades temos:
 
 Primeiro, copie o projeto para uma pasta desejada
 ```
-git clone https://github.com/GabrielNonnemacher/stopwatch-timer.git
+git clone https://github.com/GabrielNonnemacher/Naruto-Characters.git
 ```
 
 Segundo, instale dentro do projeto
@@ -48,3 +54,12 @@ Para construir o projeto, execute o comando. Os artefatos de construção serão
 ```
 ng build
 ```
+<br/>
+
+## ➡️ Link
+<a href="" target="_blank" rel="noopener noreferrer">Link Naruto<a/>
+<br/>
+
+## 👀 Preview
+### Tela Naruto
+![naruto](https://github.com/GabrielNonnemacher/Naruto-Characters/assets/87139289/e712b160-8db5-42f3-9b62-5274dcdb3112)
